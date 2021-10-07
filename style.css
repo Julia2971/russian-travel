@@ -1,0 +1,105 @@
+@font-face {
+    src: url(fonts/Inter-Regular.woff) format('woff'),
+         url(fonts/Inter-Regular.woff2) format('woff2');
+         font-family: 'Inter';
+         font-weight: 400;
+  }
+@font-face {
+    src: url(fonts/Inter-Bold.woff) format('woff'),
+         url(fonts/Inter-Bold.woff2) format('woff2');
+         font-family: 'Inter';
+         font-weight: 600;
+  }
+
+@import url(./normalize.css);
+.root{
+    background-color: #2A2C2F;
+    font-family: "Inter";
+}
+.main{
+    max-width: 1280px;
+    margin: auto;
+}
+.header{
+    width: calc(100% - 48px* 2);
+    background-color: #2A2C2F;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 28px;
+    margin: auto;
+}
+.header__lang-link{
+    line-height: 28px;
+    font-size: 24px;
+    font-weight: 400;
+    text-decoration: none;
+    color: #FFFFFF;
+    opacity: 1;
+}
+.header__lang-link:first-of-type{
+    margin-right: 18px;
+}
+.header__lang-link:hover{
+    opacity: 0.6;
+}
+.header__lang-link_type_active{
+    text-decoration: underline;
+}
+.lead{
+    width: calc(100% - 148px * 2);
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-content:center;
+    margin: auto;
+}
+.lead__title{
+    font-weight: 900;
+    font-size: 96px;
+    line-height: 100px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 56px auto 32px auto;
+    width: 720px;
+}
+.lead__subtitle{
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 36px;
+    text-align: center;
+    color: #FFFFFF;
+    margin: 0 auto 64px auto;
+    width: 640px;
+} 
+.lead__image-section{
+    margin: 0;
+}
+.lead__image{
+    width: 100%;
+}
+.lead__caption{
+    font-weight: 400;
+    font-size: 10px;
+    line-height: 14px;
+    color: #FFFFFF;
+    letter-spacing: 1.5px;
+    text-transform: uppercase;
+    margin: 8px 0 0 0;
+}
+
+.intro{
+    max-width: calc(100%-148px*2);
+    margin: 0 0 0 148px;
+}
+.photo-grid {
+    width: calc(100% - 48px * 2);
+    margin: 92px auto 0 auto;
+    padding: 0;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 16px;
+ }
+ .photo-grid__item{
+     width: 100%;
+ }
