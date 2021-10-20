@@ -11,7 +11,9 @@
 2. Css.
 3. Grid.
 4. Flex.
-5. Adaptive.
+5. Adaptive
+***
+
 **GitHub Pages**
 
 https://julia2971.github.io/russian-travel/
