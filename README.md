@@ -7,8 +7,8 @@
 
 **Используемые технологии**
 
-1.Html.
-2.Css.
-3.Grid.
-4.Flex.
-5.Adaptive.
+1. Html.
+2. Css.
+3. Grid.
+4. Flex.
+5. Adaptive.
