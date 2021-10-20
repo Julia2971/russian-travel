@@ -9,3 +9,7 @@
     text-decoration: underline;
     margin: 0;
   }
+
+  .place__link-heading:hover {
+    opacity: 0.8;
+  }
