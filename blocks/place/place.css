@@ -28,5 +28,7 @@
      "place-website"
      "place-image"
      "place-paragrpah";
+     column-gap: 32px;
     }
+    
   }
