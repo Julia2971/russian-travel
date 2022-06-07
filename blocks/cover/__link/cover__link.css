@@ -12,7 +12,6 @@
   background-size: cover;
   background-position: center;
   position: relative;
-  text-decoration: none;
   transition: opacity 1s ease-out;
   z-index: 1;
 
