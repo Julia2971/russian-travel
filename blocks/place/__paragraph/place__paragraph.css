@@ -10,6 +10,11 @@
   grid-area: place-paragraph;
   margin: 0 0 26px 0;
 }
+
+.place__paragraph:last-of-type{
+  margin-bottom: 0;
+}
+
 @media screen and (max-width: 1279px) {
   .place__paragraph{
   margin-bottom: 27px;
